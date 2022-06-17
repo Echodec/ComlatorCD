@@ -2,12 +2,72 @@ h1 {
     color: black;
 }
 
-h1 span {
+
+/* Globales*/
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sitio span {
     color: #3484c5;
+}
+
+.sitio {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.navegador {
+    border-top: 1px solid #C1C1C1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vessel {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.navvessel {
+    border-top: 1px solid #C1C1C1;
+}
+
+.banner {
+    background-image: url('../images/principal.jpg');
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-category {
+    display: grid;
+    /*grid-template-columns: repeat(4, 200px);*/
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
 }
 
 h2 span {
     color: #3484c5;
+}
+
+.aboutus {
+    background-color: #2d74ac;
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    border: 5px #000000 solid;
 }
 
 
